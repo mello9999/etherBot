@@ -28,5 +28,5 @@ jobs:
     - name: Publish
       run: |
         cd src/chatBot
-        heroku container:push worker -a $HEROKU_APP_NAME
-        heroku container:release worker -a $HEROKU_APP_NAME
+        heroku container:push web -a $HEROKU_APP_NAME
+        heroku container:release web -a $HEROKU_APP_NAME
