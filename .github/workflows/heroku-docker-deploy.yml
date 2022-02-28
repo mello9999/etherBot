@@ -1,0 +1,31 @@
+name: Deploy Docker Image to Heroku App
+on:
+  push:
+    branches: [ main ]
+    
+#set environment variables 
+env:
+  HEROKU_API_EMAIL: ${{ secrets.HEROKU_EMAIL }}
+  HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+  HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
+
+jobs:
+      
+  deploy:
+    name: Deploy to Heroku
+    runs-on: ubuntu-18.04
+    steps:
+
+    # Clone the repository
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    # Build Docker image
+    - name: Docker build
+      run: docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+
+    # Push the Docker image to Heroku Container Registry
+    - name: Publish
+      run: |
+        heroku container:push worker -a $HEROKU_APP_NAME
+        heroku container:release worker -a $HEROKU_APP_NAME
