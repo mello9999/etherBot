@@ -27,5 +27,6 @@ jobs:
     # Push the Docker image to Heroku Container Registry
     - name: Publish
       run: |
-        heroku container:push --recursive --context-path src/chatBot worker -a $HEROKU_APP_NAME
+        cd src/chatBot
+        heroku container:push worker -a $HEROKU_APP_NAME
         heroku container:release worker -a $HEROKU_APP_NAME
