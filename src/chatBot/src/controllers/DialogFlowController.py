@@ -2,7 +2,7 @@ from src.utils.helpers.general.logging import return_format
 from src.services.DialogFlowService import DialogFlowService
 from src.models.DialogFlowModel import DialogFlowModel
 from src.utils.constants.log_dialog import LOG_ERROR
-from fastapi import APIRouter, Response
+from fastapi import APIRouter, Response, Request
 import logging
 
 dialogFlowController = APIRouter()
@@ -19,8 +19,10 @@ This function is called when a POST request is sent to the / endpoint
 :return: A JSON object with the price of Ether.
 """
 @dialogFlowController.post('/', status_code=201)
-async def get_ether(data: DialogFlowModel, response: Response):
-    log, result = dfs.get_price(data.dict())
+async def get_ether(request: Request, response: Response):
+    data = await request.json()
+    logging.info(data)
+    log, result = dfs.get_price(data)
     if log is not None :
         logging.error(log)
         if log == LOG_ERROR['BAG_REQUEST']:
