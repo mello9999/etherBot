@@ -7,4 +7,4 @@ RUN rm requirements.txt
 
 ENV TZ=Asia/Bangkok
 
-CMD ["uvicorn", "main:app", "--port", "80", "--workers", "4"]
+CMD ["uvicorn", "main:app", "--workers", "4"]
