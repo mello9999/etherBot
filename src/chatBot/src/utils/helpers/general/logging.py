@@ -20,9 +20,6 @@ def setup_logging(default_path='src/utils/configs/log_config.json', default_leve
         logging.basicConfig(
             level=default_level, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", datefmt='%m/%d/%Y %H:%M:%S')
 
-def return_format(success, message):
-    data = {
-        "success": success,
-        "message": message
-    }
-    return data
+def return_format(message):
+    
+    return message

@@ -25,11 +25,11 @@ async def get_ether(data: DialogFlowModel, response: Response):
         logging.error(log)
         if log == LOG_ERROR['BAG_REQUEST']:
             response.status_code = 400
-            return return_format(False, log)
+            return return_format(log)
 
         logging.error(log)
         response.status_code = 500
-        return return_format(False, log)
+        return return_format(log)
 
     response.status_code = 200
-    return return_format(True, result)
+    return return_format(result)
