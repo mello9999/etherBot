@@ -22,7 +22,8 @@ Member in team :
 <p align="center"> <img align="center" height="900" width="800" alt="tools in project" src="pics/works/requirements/requirement.png" /> </p>
 
 # :clipboard: Products 
-- EtherBot link : `https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt`
+- Chatbot link : [EtherBot!](https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt)
+- Dashboard link : [EtherBot Analysis dashboard!](https://shorturl.asia/nZT2Y)
 
 # :gear: Tools in Project
 <p align="center"> <img align="center" height="300" width="500" alt="tools in project" src="pics/description_project/20.png" /> </p>
