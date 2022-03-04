@@ -9,7 +9,8 @@ class serverMongoDB():
                 OUTPUT - Database that keep information
                 'dataBlockchain' 
         '''
-        ethereum = MongoClient("mongodb+srv://data:data@databaseblockchain3.3fs8z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
+        # <password> : use 'password' on MongoDB database 
+        ethereum = MongoClient("mongodb+srv://data:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
 
         db = ethereum[ 'dataBlockchain_test' ]
     
@@ -21,45 +22,12 @@ class serverMongoDB():
                 OUTPUT - Database that keep information
                 'databaseBlockchain'
         '''
-        ethereum = MongoClient("mongodb+srv://data:data@databaseblockchain3.3fs8z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
+        # <password> : use 'password' on MongoDB database 
+        ethereum = MongoClient("mongodb+srv://data:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
 
         db = ethereum[ 'databaseBlockchain' ]
     
         return db
-    
-    # def collectionDataBlockchainOld():
-
-    #     dataBlockChain = serverMongoDB.__databaseMongoDB()
-
-    #     collationData = dataBlockChain[ 'dataBlockchain' ]
-
-    #     return collationData
-
-    def collectionDataBlockchain():
-
-        dataBlockChain = serverMongoDB.__databaseInformation()
-
-        collationData = dataBlockChain[ 'dataBlockchain' ]
-
-        return collationData
-
-    # def collectionDataTransactionOld():
-
-    #     dataTransactionChain = serverMongoDB.__databaseMongoDB()
-
-    #     collationData = dataTransactionChain[ 'dataTransaction' ]
-
-    #     return collationData
-
-    def collectionDataTransaction():
-
-        dataTransactionChain = serverMongoDB.__databaseInformation()
-
-        collationData = dataTransactionChain[ 'dataTransaction' ]
-
-        return collationData
-
-    ############################
 
     #   New
     def collectionBlockchain():

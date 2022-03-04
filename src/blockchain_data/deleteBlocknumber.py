@@ -6,7 +6,7 @@ deleteBlockNumber = serverMongoDB.collectionBlockchain()
 #   blockNumber:'str'
 deleteTransactionNumber = serverMongoDB.collectionTransaction()
 #   Input number to delete
-numberOfDataBlockchain = 13907249
+numberOfDataBlockchain = 13894186
 
 #   การลบข้อมูลที่อยู่ในตาราง dataBlockchain in MongoDB 
 deleteDataBlockchain = deleteBlockNumber.delete_one({'number':numberOfDataBlockchain})
