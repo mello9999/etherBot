@@ -41,5 +41,5 @@ Member in team :
 ### Process in project
 <p align="center"> <img align="center" height="300" width="500" alt="programming languages in project" src="pics/description_project/35.png" /> </p>
 
-# hammer_and_wrench: Version Product
+# :hammer_and_wrench: Version Product
 - [X] EtherBot version 0.0.0 
