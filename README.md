@@ -32,4 +32,5 @@ Member in team :
 - [X] Flask > implement API service
 
 # :hammer_and_wrench: Version Product
-- [X] EtherBot version 0.0.0 
+- [X] EtherBot version 0.0.0 release on 12 Aug 2021 `Create system`
+- [X] EtherBot version 0.1.0 relese on now!!!! :globe_with_meridians:
