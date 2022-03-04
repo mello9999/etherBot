@@ -25,6 +25,7 @@ Member in team :
 # :gear: Tools in Project
 - [X] Visual Studio Code (VS code) > implement data process
 - [X] Jupyter Python > analytics data 
+- [X] Power BI > develop dashboard
 - [X] DialogFlow > develop chatbot 
 - [X] Line Developer & Line Office Account Manager > connection line
 - [X] Heroku server > run API for real time 
