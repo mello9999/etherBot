@@ -15,11 +15,7 @@ Member in team :
 ซึ่งคริปโตเคอเรนซี่จะขึ้นอยู่กับปัจจัยต่าง ๆ ที่มีผลต่อการเปลี่ยนแปลงกราฟของสกุลเงินดิจิตัล
 
 <img align="right" height="220" width="360" alt="idea" src="pics/description_project/7.png" />
-- ทางคณะผู้จัดทำได้มีแนวคิดเกี่ยวกับการลงทุนแบบเงินดิจิตัลที่มีความเสี่ยง จึงมีสนใจที่อยากจะศึกษาเรื่องคริปโตเคอเรนซี่ ซึ่งเป็นการศึกษาที่เกี่ยวกับการตรวจจับการทำธุรกรรมของเหรียญอีเธอเรียม โดยอยู่ในรูปแบบของโปรแกรมคอมพิวเตอร์ที่จำลองบทสนทนาของมนุษย์ที่สามารถสื่อสารผ่านข้อความ (chatbot) เพื่อให้ผู้ที่สนใจลงทุนด้านคริปโตเคอเรนซี่ สามารถรับรู้การเปลี่ยนแปลงตลาดการแลกเปลี่ยนของเงินดิจิตัล
-อีเธอเรียมได้ เนื่องจากที่อยู่ (Address) ที่มีการทำธุรกรรมในจำนวนมาก อาจส่งผลต่อการเปลี่ยนแปลงของกราฟ โดยทางคณะผู้จัดทำได้มีการศึกษาข้อมูลเกี่ยวกับข้อมูลบนห่วงโซ่ของบล็อกเชนท์ (Onchain data) ที่เป็นตัวจัดเก็บข้อมูลในเครือข่ายของบล็อกเชนท์ สำหรับคริปโตเคอเรนซี่เช่นกัน
-
-### Requirements in project 
-<p align="center"> <img align="center" height="900" width="800" alt="tools in project" src="pics/works/requirements/requirement.png" /> </p>
+- ทางคณะผู้จัดทำได้มีแนวคิดศึกษาเกี่ยวกับการทำธุรกรรมของเหรียญอีเธอเรียม โดยอยู่ในรูปแบบของโปรแกรมคอมพิวเตอร์ที่จำลองบทสนทนาของมนุษย์ที่สามารถสื่อสารผ่านข้อความและกระดานแสดงผลการวิเคราะห์ข้อมูลบล็อกเชนท์เพื่อให้ผู้ที่สนใจลงทุนด้านคริปโตเคอเรนซี่สามารถรับรู้การเปลี่ยนแปลงตลาดการแลกเปลี่ยนของเงินดิจิตัลของเหรียญอีเธอเรียมได้ อีกทั้งนำข้อมูลจากหลายๆแหล่งข้อมูลมาสรุปให้กระชับมากยิ่งขึ้น และคำถามที่มักจะพบบ่อยในการลงทุน ข้อมูลทั้งหมดนี้จะแสดงผลผ่านโปรแกรมคอมพิวเตอร์ที่จำลองบทสนทนาของมนุษย์ที่สามารถสื่อสารผ่านข้อความ เพื่อให้ง่ายและสะดวกต่อการใช้งาน
 
 # :globe_with_meridians::desktop_computer:Link to Products :white_heart::black_heart:
 - :globe_with_meridians: Chatbot link : [EtherBot!](https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt) :white_heart:
@@ -33,13 +29,6 @@ Member in team :
 - [X] Line Developer & Line Office Account Manager > connection line
 - [X] Heroku server > run API for real time 
 - [X] Flask > implement API service
-
-# :hammer_and_wrench: System in project
-### Backend system
-<p align="center"> <img align="center" height="300" width="500" alt="backend system" src="pics/description_project/24.png" /> </p>
-
-### Process in project
-<p align="center"> <img align="center" height="300" width="500" alt="programming languages in project" src="pics/description_project/35.png" /> </p>
 
 # :hammer_and_wrench: Version Product
 - [X] EtherBot version 0.0.0 
