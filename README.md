@@ -27,8 +27,7 @@ Member in team :
 - :desktop_computer: Dashboard link : [EtherBot Analysis dashboard!](https://shorturl.asia/nZT2Y) :black_heart:
 
 # :gear: Tools in Project
-<p align="center"> <img align="center" height="300" width="500" alt="tools in project" src="pics/description_project/20.png" /> </p>
-<p align="center"> <img align="center" height="300" width="500" alt="programming languages in project" src="pics/description_project/22.png" /> </p>
+
 
 # :hammer_and_wrench: System in project
 ### Backend system
