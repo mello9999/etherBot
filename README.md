@@ -21,9 +21,9 @@ Member in team :
 ### Requirements in project 
 <p align="center"> <img align="center" height="900" width="800" alt="tools in project" src="pics/works/requirements/requirement.png" /> </p>
 
-# :clipboard: Products 
-- Chatbot link : [EtherBot!](https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt)
-- Dashboard link : [EtherBot Analysis dashboard!](https://shorturl.asia/nZT2Y)
+# :globe_with_meridians::desktop_computer:Link to Products :white_heart::black_heart:
+- :globe_with_meridians: Chatbot link : [EtherBot!](https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt) :white_heart:
+- :desktop_computer: Dashboard link : [EtherBot Analysis dashboard!](https://shorturl.asia/nZT2Y) :black_heart:
 
 # :gear: Tools in Project
 <p align="center"> <img align="center" height="300" width="500" alt="tools in project" src="pics/description_project/20.png" /> </p>
