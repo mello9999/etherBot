@@ -21,8 +21,8 @@ Member in team :
 ### Requirements in project 
 <p align="center"> <img align="center" height="900" width="800" alt="tools in project" src="pics/works/requirements/requirement.png" /> </p>
 
-# :clipboard: Data Model 
-<p align="center"> <img align="center" height="600" width="800" alt="tools in project" src="pics/works/data/data_model.png"/> </p>
+# :clipboard: Products 
+- EtherBot link : `https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt`
 
 # :gear: Tools in Project
 <p align="center"> <img align="center" height="300" width="500" alt="tools in project" src="pics/description_project/20.png" /> </p>
