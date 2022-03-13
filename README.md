@@ -14,7 +14,7 @@ Member in team :
 - ทางคณะผู้จัดทำได้มีแนวคิดศึกษาเกี่ยวกับการทำธุรกรรมของเหรียญอีเธอเรียม โดยอยู่ในรูปแบบของโปรแกรมคอมพิวเตอร์ที่จำลองบทสนทนาของมนุษย์ที่สามารถสื่อสารผ่านข้อความและกระดานแสดงผลการวิเคราะห์ข้อมูลบล็อกเชนท์เพื่อให้ผู้ที่สนใจลงทุนด้านคริปโตเคอเรนซี่สามารถรับรู้การเปลี่ยนแปลงตลาดการแลกเปลี่ยนของเงินดิจิตัลของเหรียญอีเธอเรียมได้ อีกทั้งนำข้อมูลจากหลายๆแหล่งข้อมูลมาสรุปให้กระชับมากยิ่งขึ้น และคำถามที่มักจะพบบ่อยในการลงทุน ข้อมูลทั้งหมดนี้จะแสดงผลผ่านโปรแกรมคอมพิวเตอร์ที่จำลองบทสนทนาของมนุษย์ที่สามารถสื่อสารผ่านข้อความ เพื่อให้ง่ายและสะดวกต่อการใช้งาน
 
 # :globe_with_meridians::desktop_computer:Link to Products :white_heart::black_heart:
-- :globe_with_meridians: Chatbot link : [EtherBot!](https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt) :white_heart:
+- :desktop_computer: Chatbot link : [EtherBot!](https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt) :white_heart:
 - :globe_with_meridians::desktop_computer: API link : [EtherBot.Dataservice API!](https://etherbot2022.herokuapp.com/docs) :white_heart::black_heart:
 - :desktop_computer: Dashboard link : [EtherBot Analysis dashboard!](https://shorturl.asia/nZT2Y) :black_heart:
 
