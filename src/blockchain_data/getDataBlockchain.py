@@ -9,7 +9,6 @@ class getDataBlockchain():
         Create dictionary last block nummber that has transaction
             INPUT - API key Infura.io
     '''
-    # kao's project 
     projectId = '<token id>' # toten id : infula token's on project 
 
     def __getInformation():

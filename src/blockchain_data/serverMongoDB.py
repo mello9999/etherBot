@@ -9,8 +9,9 @@ class serverMongoDB():
                 OUTPUT - Database that keep information
                 'dataBlockchain' 
         '''
+        # <username>: use 'username' on MongoDB database 
         # <password> : use 'password' on MongoDB database 
-        ethereum = MongoClient("mongodb+srv://data:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
+        ethereum = MongoClient("mongodb+srv://<username>:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
 
         db = ethereum[ 'dataBlockchain_test' ]
     
@@ -22,8 +23,9 @@ class serverMongoDB():
                 OUTPUT - Database that keep information
                 'databaseBlockchain'
         '''
+        # <username>: use 'username' on MongoDB database 
         # <password> : use 'password' on MongoDB database 
-        ethereum = MongoClient("mongodb+srv://data:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
+        ethereum = MongoClient("mongodb+srv://<username>:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
 
         db = ethereum[ 'databaseBlockchain' ]
     

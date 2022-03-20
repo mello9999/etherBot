@@ -25,4 +25,4 @@ class DialogFlowService():
     if log is not None:
       return log, result
 
-    return None, { "fulfillmentText": 'Price of ETH : {} USD'.format(result) }
+    return None, { "fulfillmentText": 'ตอนนี้ราคาของเหรียญ ETH อยู่ที่ {} USD'.format(result) }

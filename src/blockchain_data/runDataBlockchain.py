@@ -6,6 +6,10 @@ from serverMongoDB import serverMongoDB
 startAllTime = time.time()
 print('>>>> Loading Process... <<<< ')
 
+#   วันที่ 08/12/2564
+# n0 = 13765452 # 13764939 > Block เเรกของ 20.00 
+# n = 13765459 # 13765457 > Block สุดท้ายของ 22.00 
+
 #   วันที่ 20/12/2564
 # n0 = 13842730 # 13842156 > Block เเรกของ 20.00 
 # n = 13842731 # 13842730 > Block สุดท้ายของ 22.00 
@@ -21,10 +25,6 @@ n = 13894419 # 13894418 > Block สุดท้ายของ 22.00
 #   วันที่ 31/12/2564
 # n0 = 13913716 # 13913266 > Block เเรกของ 20.00 
 # n = 13913793 # 13913792 > Block สุดท้ายของ 22.00 
-
-#   วันที่ 08/12/2564
-# n0 = 13765452 # 13764939 > Block เเรกของ 20.00 
-# n = 13765459 # 13765457 > Block สุดท้ายของ 22.00 
 
 for number in range(n0,n):
     informationBlock = getDataBlockchain.informationBlockByTime( number )
