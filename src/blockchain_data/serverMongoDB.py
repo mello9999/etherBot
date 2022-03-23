@@ -12,7 +12,6 @@ class serverMongoDB():
         # <username>: use 'username' on MongoDB database 
         # <password> : use 'password' on MongoDB database 
         ethereum = MongoClient("mongodb+srv://<username>:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
-
         db = ethereum[ 'dataBlockchain_test' ]
     
         return db
@@ -26,7 +25,6 @@ class serverMongoDB():
         # <username>: use 'username' on MongoDB database 
         # <password> : use 'password' on MongoDB database 
         ethereum = MongoClient("mongodb+srv://<username>:<password>@databaseblockchain4.lubse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tlsCAFile=certifi.where())
-
         db = ethereum[ 'databaseBlockchain' ]
     
         return db
@@ -35,7 +33,6 @@ class serverMongoDB():
     def collectionBlockchain():
 
         dataBlockChain = serverMongoDB.__databaseMongoDB()
-
         collationData = dataBlockChain[ 'dataBlockchain' ]
 
         return collationData
@@ -43,7 +40,6 @@ class serverMongoDB():
     def collectionTransaction():
 
         dataTransactionChain = serverMongoDB.__databaseMongoDB()
-
         collationData = dataTransactionChain[ 'dataTransaction' ]
 
         return collationData
