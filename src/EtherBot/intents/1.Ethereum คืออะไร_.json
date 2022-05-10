@@ -1,0 +1,72 @@
+{
+  "id": "e902d3dc-1b84-4cfa-8b4d-b74ef99c3303",
+  "name": "1.Ethereum คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "สอบถาม",
+                      "text": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "Ethereum คือ เครือข่าย Blockchain ที่เป็นแพลตฟอร์มให้เหล่านักพัฒนาสามารถสร้างแอพพลิเคชันแบบกระจายศูนย์ หรือ Dapps (Decentralized Application) \nEthereum ถูกสร้างขึ้นโดย Vitalik Bulletin และเปิดตัวในปี 2015 โดยเขาเคยเป็นผู้ร่วมก่อตั้งเว็บไซต์ Bitcoin Magazine"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

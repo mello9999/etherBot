@@ -1,0 +1,57 @@
+{
+  "id": "38e479d7-8807-4f86-b587-888e5cbcc10e",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "สวัสดีค่ะ คุณอยากรู้อะไรไหมที่เกี่ยวกับ Ethereum กรุณาพิมพ์ \u0027เมนู\u0027 หรือ \u0027สอบถาม\u0027 ได้เลยค่ะ",
+            "สบายดีไหมคะ คุณอยากรู้อะไรไหมที่เกี่ยวกับ Ethereum กรุณาพิมพ์ \u0027เมนู\u0027 หรือ \u0027สอบถาม\u0027 ได้เลยค่ะ",
+            "ยินดีให้บริการค่ะ คุณอยากรู้อะไรไหมที่เกี่ยวกับ Ethereum กรุณาพิมพ์ \u0027เมนู\u0027 หรือ \u0027สอบถาม\u0027 ได้เลยค่ะ",
+            "Hello, if you want to know anything about Ethereum, please type \u0027menu\u0027.",
+            "Welcome to EtherBot, if you want to know anything about Ethereum, please type \u0027menu\u0027.",
+            "ยินดีต้อนรับเข้าสู่ EtherBot คุณอยากรู้อะไรไหมที่เกี่ยวกับ Ethereum กรุณาพิมพ์ \u0027เมนู\u0027 หรือ \u0027สอบถาม\u0027 ได้เลยค่ะ"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

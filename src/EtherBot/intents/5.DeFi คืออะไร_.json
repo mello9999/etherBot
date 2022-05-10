@@ -1,0 +1,72 @@
+{
+  "id": "93df1dc1-0391-48b7-843a-9e9a0aa6510b",
+  "name": "5.DeFi คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "สอบถาม",
+                      "label": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "type": "text",
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "DeFi หรือ Decentralized Finance นั้น เกิดจากการรวมตัวกันของคอมมูนิตี้ Ethereum Developer ในโปรเจกต์ต่าง ๆ เช่น MakerDao Kybernetwork Compound และอื่น ๆ โดยเป็นการพูดถึงแนวคิดของการสร้างระบบการเงินไร้ตัวกลาง ที่สามารถทำในสิ่งที่ระบบการเงินปัจจุบันหรือธนาคารทำอยู่ ไม่ว่าจะเป็นการ สร้างสินทรัพย์ กู้ยืม ค้ำประกัน โอนสินทรัพย์ รวมไปถึงสิ่งอื่น ๆ ที่ระบบการเงินปัจจุบันทำได้ ซึ่งอาจจะรวมไปถึงตลาดเงิน สินทรัพย์ หรือแม้แต่หุ้น"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

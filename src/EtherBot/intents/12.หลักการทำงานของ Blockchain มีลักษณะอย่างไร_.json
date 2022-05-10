@@ -1,0 +1,71 @@
+{
+  "id": "728e2f21-0011-417f-b2df-1fb1730aa6b4",
+  "name": "12.หลักการทำงานของ Blockchain มีลักษณะอย่างไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "line",
+          "imageUrl": "https://drive.google.com/uc?export\u003ddownload\u0026id\u003d1fnBtOOH3MapXTyHjPQmr4lNoAo9UIJQm",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "text": "สอบถาม",
+                      "label": "สอบถาม"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

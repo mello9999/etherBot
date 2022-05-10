@@ -1,0 +1,103 @@
+{
+  "id": "b8688248-4c4c-4bd6-b429-584d40cd36fb",
+  "name": "menu(สอบถาม)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "template": {
+                "title": "EtherBot",
+                "thumbnailImageUrl": "https://drive.google.com/uc?export\u003ddownload\u0026id\u003d1o48HvhD4cwJpxsa0CWTEi9w7jc25RyKC",
+                "text": "สามารถเลือกจากเมนูหรือพิมพ์/กดคำถามด้านล่างได้เลยค่ะ",
+                "type": "buttons",
+                "actions": [
+                  {
+                    "text": "faq",
+                    "type": "message",
+                    "label": "คำถามที่พบบ่อย"
+                  },
+                  {
+                    "text": "ข้อมูล",
+                    "label": "ข้อมูลเกี่ยวกับ ETH",
+                    "type": "message"
+                  },
+                  {
+                    "text": "dashboard",
+                    "label": "กระดานเเสดงผล",
+                    "type": "message"
+                  },
+                  {
+                    "label": "ข่าวสาร",
+                    "text": "news",
+                    "type": "message"
+                  }
+                ]
+              },
+              "altText": "Choose EtherBot Menu",
+              "type": "template"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "altText": "Choose EtherBot Menu",
+              "template": {
+                "text": "คุณสามารถเช็คราคาเหรียญอีเธอเรียมจากพิมพ์/กดปุ่มด้านล่างได้เลยค่ะ",
+                "type": "buttons",
+                "title": "Check Price!!!",
+                "actions": [
+                  {
+                    "type": "message",
+                    "label": "Check ราคาเหรียญ ETH",
+                    "text": "ราคาเหรียญ ETH"
+                  }
+                ]
+              },
+              "type": "template"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

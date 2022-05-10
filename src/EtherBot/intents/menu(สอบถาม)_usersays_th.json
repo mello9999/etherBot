@@ -1,0 +1,80 @@
+[
+  {
+    "id": "e1349c34-d18e-4bf0-9a63-7f2792c9a3f8",
+    "data": [
+      {
+        "text": "function",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "fe75db48-7ee1-457c-979d-71130fefb780",
+    "data": [
+      {
+        "text": "Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "b50871f1-de9e-40f4-9fbe-3c6f98fb280b",
+    "data": [
+      {
+        "text": "รายการ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "6db1e4a6-2f2e-4f08-a156-af8b880534e7",
+    "data": [
+      {
+        "text": "เมนู",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "9c33a453-5cb9-4186-b218-b3be00fe143c",
+    "data": [
+      {
+        "text": "ถาม",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "fff43e80-624d-4f06-8504-e109cf9c9dda",
+    "data": [
+      {
+        "text": "สอบถาม",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

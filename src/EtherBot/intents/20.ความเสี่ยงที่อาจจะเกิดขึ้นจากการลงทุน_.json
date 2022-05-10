@@ -1,0 +1,72 @@
+{
+  "id": "bc15cd77-66f3-48ff-a9a7-1e4462fe365a",
+  "name": "20.ความเสี่ยงที่อาจจะเกิดขึ้นจากการลงทุน?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "text": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "label": "สอบถาม",
+                      "text": "สอบถาม",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ความเสี่ยงที่กว้างที่สุดที่เราหลีกหนีไม่ได้ คือความเสี่ยงจากตลาด (Market Risk) นี่คือความเสี่ยงที่เรากำจัดไม่ได้เลยหากต้องการลงทุนในสินทรัพย์อะไรสักอย่าง"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

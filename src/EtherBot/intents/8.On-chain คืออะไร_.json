@@ -1,0 +1,72 @@
+{
+  "id": "bacdb9e5-b7f9-43e7-8ca6-1ec4118f5b5d",
+  "name": "8.On-chain คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "สอบถาม",
+                      "label": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "On-chain เป็นการบันทึกทุกอย่างลงใน blockchain และต้องใช้หลายคนเพื่อตรวจสอบและรับรองความถูกต้องของการทำธุรกรรม มีข้อดี คือปลอดภัยมาก เพราะมีการ proof ทุกครั้ง โปร่งใส เพราะทุกการทำธุรกรรมถูกประกาศเป็นแบบสาธารณะ และ การทำธุรกรรมไม่สามารถแก้ไขหรือลบได้"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

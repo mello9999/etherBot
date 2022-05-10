@@ -1,0 +1,142 @@
+{
+  "id": "066605e9-0479-461c-bde3-68a8b9d91f06",
+  "name": "FAQ (การ์ดคำถาม)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "template": {
+                "type": "carousel",
+                "columns": [
+                  {
+                    "title": "Q1 อีเธอเรียม 1.0 และ 2.0 ต่างกัน?",
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "text": "Q1 อีเธอเรียม 1.0 และ อีเธอเรียม 2.0 ต่างกันอย่างไร?",
+                        "type": "message"
+                      }
+                    ],
+                    "text": "A1 อีเธอเรียม 1.0 เป็นการใช้กลไก proof of work ส่วน อีเธอเรียม..."
+                  },
+                  {
+                    "title": "Q2 ค่าธรรมเนียมที่ใช้?",
+                    "actions": [
+                      {
+                        "type": "message",
+                        "label": "อ่านเพิ่ม",
+                        "text": "Q2 ค่าธรรมเนียมที่ใช้ในการโอนจ่ายหรือแลกเปลี่ยนอีเธอเรียมคืออะไร?"
+                      }
+                    ],
+                    "text": "A2 ค่าธรรมเนียมที่ใช้ในการโอนจ่ายหรือการแลกเปลี่ยนอีเธอเรีย..."
+                  },
+                  {
+                    "actions": [
+                      {
+                        "text": "Q3 เราจะทราบได้อย่างไรว่าการทำธุรกรรมของเหรียญอีเธอเรียมเสร็จสมบูรณ์?",
+                        "type": "message",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ],
+                    "text": "A3 การทำธุรกรรมจะสมบูรณ์ได้ก็ต่อเมื่อได้รับการยืนยันโดยประ...",
+                    "title": "Q3 การทำธุรกรรมเสร็จสมบูรณ์?"
+                  },
+                  {
+                    "text": "A4 อีเธอเรียมถูกกำหนดให้มีกาพัฒนาขึ้นในเดือนธันวาคม ปี20...",
+                    "title": "Q4 อีเธอเรียม 1.0 เปลี่ยนเป็น 2.0 เมื่อไหร่?",
+                    "actions": [
+                      {
+                        "type": "message",
+                        "text": "Q4 เมื่อไรที่อีเธอเรียม 1.0 จะถูกเปลี่ยนเป็นอีเธอเรียม 2.0 อย่างสมบูรณ์แบบ?",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ]
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "message",
+                        "text": "Q5 ข้อมูลการทำธุรกรรมของอีเธอเรียมจะหายไปหรือไม่ ถ้ามันถูกเปลี่ยนเป็นอีเธอเรียม 2.0?",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ],
+                    "text": "A5 ข้อมูลจะไม่หายไป ระบบเครือข่ายของเหรียญอีเธอเรียมจะย้า...",
+                    "title": "Q5 เมื่อเปลี่ยนเป็นอีเธอเรียม 2.0 ข้อมูลจะหาย?"
+                  },
+                  {
+                    "text": "A6 Crytocurrency เป็นสกุลเงินที่ถูกเข้ารหัสเพื่อใช้ในการป้องกันแ...",
+                    "title": "Q6 Blockchain และ crytocurrencyต่างกัน?",
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "type": "message",
+                        "text": "Q6 ความแตกต่างระหว่าง Blockchain และ crytocurrency?"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Q7 มูลค่าของ Ethereum จะเพิ่มขึ้นหรือไม่?",
+                    "text": "A7 Ethereum หรือ Ether มีมูลค่าเพิ่มขึ้นมา 365% แล้วในปีนี้จนถึ...",
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "text": "Q7 มูลค่าของ Ethereum จะเพิ่มขึ้นหรือไม่?",
+                        "type": "message"
+                      }
+                    ]
+                  },
+                  {
+                    "actions": [
+                      {
+                        "text": "Q8 การลงทุนใน cryptocurrency เหมาะสำหรับการลงทุนระยะยาวหรือไม่?",
+                        "label": "อ่านเพิ่ม",
+                        "type": "message"
+                      }
+                    ],
+                    "text": "A8 ด้วยภาวะตลาดที่ค่อนข้างผันผวน และราคาเหรียญหลายตัวที่ปรั...",
+                    "title": "Q8 crytocurrency กับการลงทุนระยะยาว?"
+                  }
+                ]
+              },
+              "type": "template",
+              "altText": "Choose FAQ Menu"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "0b40db23-8865-4e42-8ee0-55db13dc2e44",
+  "name": "Q2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "faq",
+                      "label": "คำถามที่พบบ่อย"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "สอบถาม",
+                      "text": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A2 : ค่าธรรมเนียมที่ใช้ในการโอนจ่ายหรือการแลกเปลี่ยนอีเธอเรียมนั้น เป็นของรางวัลในรูปแบบหนึ่งที่จะถูกส่งไปให้ผู้ขุด ที่ช่วยการขับเคลื่อนการทำงานของธุรกรรมบนเครือข่ายอีเธอเรียมได้อย่างสมบูรณ์ เพื่อให้มั่นใจว่าการทำธุรกรรมของเรานั้นได้รับการยืนยันและเชื่อถือได้ โดยค่าธรรมเนียมที่เกิดขึ้นจะขึ้นอยู่กับความเหมาะสมในการรับส่งข้อมูบนอีเธอเรียมอย่างอัตโนมัติ"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "92aade16-eded-4caf-a827-f77a11b5c2fc",
+  "name": "News",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "สอบถาม",
+                      "type": "message",
+                      "text": "สอบถาม"
+                    }
+                  }
+                ]
+              },
+              "type": "text",
+              "text": "คุณต้องการอยากรู้อย่างอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ติดตามข่าวสารได้จากที่นี่ https://www.coindesk.com/newsletters/ หรือ https://coinmarketcap.com/alexandria/categories/market-musing",
+            "ติดตามข่าวใหม่ๆได้จากที่นี่ https://www.coindesk.com/newsletters/ หรือ https://coinmarketcap.com/alexandria/categories/market-musing"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

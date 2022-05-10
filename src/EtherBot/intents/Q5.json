@@ -1,0 +1,72 @@
+{
+  "id": "9de00c8c-a2bd-4a63-aec0-bbfefcd7fbad",
+  "name": "Q5",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "คำถามที่พบบ่อย",
+                      "text": "faq",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "action": {
+                      "label": "สอบถาม",
+                      "type": "message",
+                      "text": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "type": "text",
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A5 : ข้อมูลจะไม่หายไป ระบบเครือข่ายของเหรียญอีเธอเรียมจะย้ายให้ข้อมูลอัตโนมัติทั้งหมด หลังจากที่มีการพัฒนาบล็อกเชนอีเธอเรียมเสร็จสมบูรณ์"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

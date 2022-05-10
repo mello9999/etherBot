@@ -1,0 +1,72 @@
+{
+  "id": "79a8591b-0b39-4323-91b9-a31fe28048a8",
+  "name": "Q1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?",
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "faq",
+                      "type": "message",
+                      "label": "คำถามที่พบบ่อย"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "สอบถาม",
+                      "text": "สอบถาม",
+                      "type": "message"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A1 : อีเธอเรียม 1.0 เป็นการใช้กลไก proof of work ส่วนอีเธอเรียม 2.0 เป็นการเปลี่ยนมาใช้กลไก proof of stake เพื่อเพิ่มประสิทธิภาพ ความเร็ว ลดปัญหาคอขวดของการทำธุรกรรม เพราะอีเธอเรียม 1.0 สามารถรองรับการทำธุรกรรมได้ 30 รายการต่อวินาทีทำให้เกิดความล่าช้า เกิดคอขวด ส่วนอีเธอเรียม 2.0 สามารถทำรายการได้ 100,000 รายการต่อวินาที ซึ่งในปัจจุบันเป็นการใช้อีเธอเรียม 1.0 และอีเธอเรียม 2.0 ควบคู่กับไป เพราะการพัฒนาบล็อกเชนอีเธอเรียมนี้ยังไม่เสร็จสมบูรณ์ ถ้าการพัฒนาเสร็จสมบูรณ์ก็จะเปลี่ยนมาใช้อีเธอเรียม 2.0 อย่างเต็มรูปแบบ"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

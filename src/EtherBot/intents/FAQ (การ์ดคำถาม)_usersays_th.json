@@ -1,0 +1,54 @@
+[
+  {
+    "id": "d8ff3b92-8f53-431d-99b8-4aae92e0cd9d",
+    "data": [
+      {
+        "text": "คำถาม",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "1bcccf45-c218-4998-8326-cc937ecc58d4",
+    "data": [
+      {
+        "text": "พบบ่อย",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "a43a1392-84c4-4f56-b414-8df2c56d97a5",
+    "data": [
+      {
+        "text": "คำถามที่พบบ่อย",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "3882421e-730b-41a4-81b5-c7d3df62f144",
+    "data": [
+      {
+        "text": "faq",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "th",
+    "updated": 0
+  }
+]

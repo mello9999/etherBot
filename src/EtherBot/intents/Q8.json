@@ -1,0 +1,72 @@
+{
+  "id": "63e07841-4e0e-46bd-8bae-b35ade99f7d0",
+  "name": "Q8",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "faq",
+                      "label": "คำถามที่พบบ่อย",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "สอบถาม",
+                      "label": "สอบถาม",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A8 : ด้วยภาวะตลาดที่ค่อนข้างผันผวน และราคาเหรียญหลายตัวที่ปรับตัวขึ้นลงระดับมากกว่า 1,000% อาจเป็นโอกาสทองของนักเก็งกำไรระยะสั้น แต่สำหรับบางเหรียญอาจเหมาะกับนักลงทุนที่คาดหวังผลตอบแทนระยะยาว"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

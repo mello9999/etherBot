@@ -1,0 +1,87 @@
+{
+  "id": "6d83ca41-ee5f-4149-8199-89cc5d70ae10",
+  "name": "3.Proof of stake คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b087fcde-fe24-4aa8-9a50-dfadbf2c398a",
+          "name": "airport",
+          "required": false,
+          "dataType": "@sys.airport",
+          "value": "$airport",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "text": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "text": "สอบถาม",
+                      "label": "สอบถาม",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "Proof of stake เป็นการที่ยืนยันทางธุรกรรมที่เป็นการกำหนดความรวยของผู้ถือเหรียญ เรียกกลุ่มคนเหล่านี้ว่า Validation โดยระบบ Algorithm จะทำการตรวจสอบผู้ที่มีสิทธิที่จะเข้ามายืนยันธุรกรรมในบล็อกใหม่จากการสุ่มให้เป็น Validator ซึ่งโอกาสในการเป็น Validation นั้นไม่ได้มาจากการถือครองเหรียญสูงสุด แต่เป็นจำนวนการซื้อขาย การแลกเปลี่ยนในการทำธุรกรรมที่มีปริมาณมากเท่าไร โอกาสในการเป็นผู้ยืนยันธุรกรรมมากขึ้นตามลำดับ"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

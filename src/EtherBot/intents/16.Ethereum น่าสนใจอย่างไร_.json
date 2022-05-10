@@ -1,0 +1,72 @@
+{
+  "id": "13ae2fa2-0805-42b4-85c0-e3fea8f91fea",
+  "name": "16.Ethereum น่าสนใจอย่างไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "text": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "text": "สอบถาม",
+                      "label": "สอบถาม"
+                    }
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ความสามารถของ Ethereum เป็นสิ่งที่หลายคนให้ความสนใจ สิ่งที่ทำให้ Ethereum มีความโดดเด่นและเป็นที่จับตามอง คือ มีระบบ Smart Contract ความนิยมในการระดมทุนผ่าน ICO และได้รับการสนับสนุนจากบริษัทใหญ่ทั่วโลก"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "55bc6035-6a26-465c-a812-92133613c96b",
+  "name": "15.ประโยชน์ของ Cryptocurrency?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "สอบถาม",
+                      "text": "สอบถาม"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "- ทำธุรกรรมได้ง่ายและรวดเร็วเนื่องจากธุรกรรมที่เกี่ยวข้องกับคริปโตฯเป็นแบบดิจิทัลทั้งหมด  \n\n- ต้นทุนในการทำธุรกรรมต่ำ ช่วยลดต้นทุนในส่วนของค่าใช้จ่ายในการทำธุรกรรมไปได้มากเมื่อเปรียบเทียบกับบริการทางการเงินอื่น ๆ  \n\n- มีความปลอดภัย ความโปร่งใสและเป็นส่วนตัว เนื่องจากคริปโตฯ ทำงานอยู่บนเทคโนโลยีที่ชื่อว่า “Blockchain” \n\n- เปิดซื้อขายแลกเปลี่ยน 24 ชั่วโมง มีสภาพคล่องสูงเพราะเปิดให้ซื้อขายตลอด 24 ชั่วโมงไม่มีวันหยุด"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

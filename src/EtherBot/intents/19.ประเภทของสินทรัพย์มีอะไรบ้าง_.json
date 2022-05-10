@@ -1,0 +1,72 @@
+{
+  "id": "bd8e48f2-540a-4f1e-afc5-f7afc40a61f4",
+  "name": "19.ประเภทของสินทรัพย์มีอะไรบ้าง?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "label": "สอบถาม",
+                      "text": "สอบถาม",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ประเภทของสินทรัพย์ มี 3 ประเภท  \n\n1. สินทรัพย์หมุนเวียน (Current Assets) \n\n2. สินทรัพย์ไม่หมุนเวียน (Non – Current Assets) \n\n3. สินทรัพย์ไม่มีตัวตน (Intangible Assets)"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

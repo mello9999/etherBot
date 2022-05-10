@@ -1,0 +1,28 @@
+[
+  {
+    "id": "48f50935-f980-4041-886a-d765bdee6c51",
+    "data": [
+      {
+        "text": "Smart contract",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "3ec2511a-1e15-47cf-9b94-ee1533d3257f",
+    "data": [
+      {
+        "text": "Smart contract คืออะไร?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

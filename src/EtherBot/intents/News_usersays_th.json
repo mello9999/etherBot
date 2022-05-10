@@ -1,0 +1,158 @@
+[
+  {
+    "id": "befc487d-0ee8-4dd6-a926-f5257f300de2",
+    "data": [
+      {
+        "text": "อ่านข่าว",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "376615b9-6b58-480c-86b2-0ddf4fcd9dd5",
+    "data": [
+      {
+        "text": "ข่าววันนี้",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "fdb425ae-0a41-48d4-b554-108e23c21ef3",
+    "data": [
+      {
+        "text": "อย่าดูข่าวของวันนี้",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "29d5d40b-ee8e-4ecf-a00f-c41fa5412aa9",
+    "data": [
+      {
+        "text": "ดูข่าว",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "724a1f72-d17a-4646-a171-31371d91be59",
+    "data": [
+      {
+        "text": "ขอข่าว",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "77e8cb49-efa8-4434-bc37-1b28d5a79da6",
+    "data": [
+      {
+        "text": "มีข่าวใหม่มั้ย",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "4fe35719-df23-4c41-a879-97b3beb17c73",
+    "data": [
+      {
+        "text": "ต้องการอ่านข่าว",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "04a3ce84-0738-46a2-a54a-6d3cebf0fbbf",
+    "data": [
+      {
+        "text": "ดูข่าวได้จากไหน",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "d740dccc-6299-4297-afc0-f54d59f1a575",
+    "data": [
+      {
+        "text": "มีข่าวอะไรบ้าง",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "4ada26c0-61cc-4f84-8bbd-a5be444c586a",
+    "data": [
+      {
+        "text": "อยากรู้ข่าวของวันนี้",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "8ebf27e7-4a62-4192-bba0-2b2be44f9492",
+    "data": [
+      {
+        "text": "News",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "5314028a-dc6d-4344-902a-37255941d7d9",
+    "data": [
+      {
+        "text": "ข่าว",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

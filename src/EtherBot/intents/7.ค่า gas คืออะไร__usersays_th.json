@@ -1,0 +1,28 @@
+[
+  {
+    "id": "05b6e8f4-d974-4913-aff5-9a188e6060d4",
+    "data": [
+      {
+        "text": "ค่า gas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "2ee66696-ba82-4362-b761-7e19c588f7e9",
+    "data": [
+      {
+        "text": "ค่า gas คืออะไร?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "id": "bbe5a866-d2eb-45cc-878a-9f0a723fbed2",
+  "name": "7.ค่า gas คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "text": "สอบถาม",
+                      "label": "สอบถาม"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ค่า gas คือ ค่าธรรมเนียมหรือมูลค่าในการทำธุรกรรมบนบล็อกเชน ที่ต้องการเปิดใช้งาน Smart Contract  หรือสิ่งที่ต้องจ่ายเป็นค่าตอบแทนสำหรับนักขุด"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "a60ff26e-435d-434e-8ef3-fdfe4bd1b69c",
+  "name": "Q3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "text": "faq",
+                      "label": "คำถามที่พบบ่อย",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "สอบถาม",
+                      "text": "สอบถาม",
+                      "type": "message"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A3 : การทำธุรกรรมจะสมบูรณ์ได้ก็ต่อเมื่อได้รับการยืนยันโดยประมาณ 12 ครั้ง หรือใช้เวลาประมาณ 5 นาที ตั้งแต่ที่คุณเริ่มทำธุรกรรมของเหรียญอีเธอเรียม"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

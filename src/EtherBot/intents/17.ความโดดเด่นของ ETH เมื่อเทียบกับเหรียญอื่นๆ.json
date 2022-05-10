@@ -1,0 +1,72 @@
+{
+  "id": "45f331d7-90d6-4d4a-aaa0-21477c8210b0",
+  "name": "17.ความโดดเด่นของ ETH เมื่อเทียบกับเหรียญอื่นๆ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "สอบถาม",
+                      "text": "สอบถาม"
+                    }
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "- เป็น Open Source เปิดให้บุคคลอื่นร่วมพัฒนาระบบจึงทำงานได้หลากหลายกว่าบิตคอยน์ \n\n- มีระบบ Smart Contract สร้างเงื่อนไขการสั่งจ่ายได้ \n\n- นิยมใช้ในการระดมทุนแบบดิจิทัลที่เรียกว่า \u0027ICO\u0027 \n\n- หลายบริษัทตั้งองค์กรร่วมพัฒนาเหรียญ"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "c8d861d6-875b-4dbb-bae3-a2f39fa2d731",
+  "name": "9.Off-chain คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "label": "สอบถาม",
+                      "text": "สอบถาม",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "type": "text",
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "Off-chain เป็นการแลกเปลี่ยนการทำธุรกรรมที่ตกลงกันระหว่างสองฝ่าย และมี Third Party เพื่อมาตรวจสอบและรองรับการทำธุรกรรม ข้อดี คือเร็วกว่า on chain เพราะว่าไม่ต้องรอการตรวจสอบจากทั้งระบบ และเป็นส่วนตัวมากกว่า เพราะว่าการทำธุรกรรมไม่สามารถเห็นแบบ Public Blockchain ได้"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

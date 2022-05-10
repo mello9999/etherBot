@@ -1,0 +1,72 @@
+{
+  "id": "69e6f862-f5aa-4a0a-bc35-89a737934c8e",
+  "name": "2. Proof of work คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "สอบถาม",
+                      "label": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "Proof of work จะใช้การประมวลผลของฮาร์ดแวร์คอมพิวเตอร์ เพื่อตรวจสอบและยืนยันการทำธุรกรรมสำหรับนักขุด ถ้านักขุดคนแรกที่สามารถทำการยืนยันการทำธุรกรรมของอีเทอเรียมได้ก่อน และบันทึกการทำธุรกรรมเป็นบล็อกได้ พวกเขาจะได้รางวัลเป็นอีเทอเรียมตอบแทน ซึ่งกระบวนการเหล่านี้จะใช้พลังงานไฟฟ้ามาก"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "89046a25-35fb-4469-9bba-91a74df021ac",
+  "name": "Q6",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "text": "faq",
+                      "type": "message",
+                      "label": "คำถามที่พบบ่อย"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "label": "สอบถาม",
+                      "type": "message",
+                      "text": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A6 : Cryptocurrency เป็นสกุลเงินที่ถูกเข้ารหัสเพื่อใช้ในการป้องกันและการยืนยันตัวตนผ่านระบบ blockchain โดยคำว่า \"Crypto\" หมายถึง การเข้ารหัส ส่วนคำว่า \"Currency\" หมายถึง สกุลเงิน ซึ่ง Blockchain เป็นระบบการจัดเก็บข้อมูลแบบกระจายศูนย์"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

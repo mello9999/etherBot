@@ -1,0 +1,286 @@
+{
+  "id": "0839c49a-fdf1-49a0-9b12-1da11668b516",
+  "name": "information (การ์ด)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "altText": "Choose Data about ETH Menu",
+              "type": "template",
+              "template": {
+                "columns": [
+                  {
+                    "text": "Ethereum คือ เครือข่าย Blockchain ที่เป็นแพลตฟอร์มให้เหล่...",
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "text": "Ethereum คืออะไร?",
+                        "type": "message"
+                      }
+                    ],
+                    "title": "Ethereum คืออะไร?"
+                  },
+                  {
+                    "title": "Proof of work คืออะไร?",
+                    "actions": [
+                      {
+                        "type": "message",
+                        "text": "Proof of work คืออะไร?",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ],
+                    "text": "Proof of work จะใช้การประมวลผลของฮาร์ดแวร์คอมพิวเตอร์ เพื่อ..."
+                  },
+                  {
+                    "text": "Proof of stake เป็นการที่ยืนยันทางธุรกรรมที่เป็นการกำหนดความรวยของ...",
+                    "title": "Proof of stake คืออะไร?",
+                    "actions": [
+                      {
+                        "type": "message",
+                        "text": "Proof of stake คืออะไร?",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Smart contract คือ กระบวนการทางดิจิทัล ที่กำหนดขั้นตอนการทำ...",
+                    "actions": [
+                      {
+                        "text": "Smart contract คืออะไร?",
+                        "type": "message",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ],
+                    "title": "Smart contract คืออะไร?"
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "message",
+                        "text": "DeFi คืออะไร?",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ],
+                    "title": "DeFi คืออะไร?",
+                    "text": "DeFi หรือ Decentralized Finance นั้น เกิดจากการรวมตัวกันของคอ..."
+                  },
+                  {
+                    "text": "ERC20 token หรือ Ethereum Request for Comment เป็นทรัพย์สินที่ใ...",
+                    "title": "ERC20 token คืออะไร?",
+                    "actions": [
+                      {
+                        "type": "message",
+                        "label": "อ่านเพิ่ม",
+                        "text": "ERC20 token คืออะไร?"
+                      }
+                    ]
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "message",
+                        "text": "ค่า gas คืออะไร?",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ],
+                    "text": "ค่าธรรมเนียมหรือมูลค่าในการทำธุรกรรมบนบล็อกเชน ที่่ต้องการเปิด...",
+                    "title": "ค่า gas คืออะไร?"
+                  },
+                  {
+                    "text": "ค่าธรรมเนียมหรือมูลค่าในการทำธุรกรรมบนบล็อกเชน ที่ต้องการเปิด...",
+                    "title": "On-chain คืออะไร?",
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "type": "message",
+                        "text": "On-chain คืออะไร?"
+                      }
+                    ]
+                  },
+                  {
+                    "actions": [
+                      {
+                        "text": "Off-chain คืออะไร?",
+                        "type": "message",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ],
+                    "title": "Off-chain คืออะไร?",
+                    "text": "Off-chain เป็นการแลกเปลี่ยนการทำธุรกรรมที่ตกลงกันระหว่างสองฝ่าย..."
+                  },
+                  {
+                    "text": "Blockchain คือ เทคโนโลยีการประมวลผลและจัดเก็บข้อมูลแบบกระจายศู...",
+                    "actions": [
+                      {
+                        "text": "Blockchain คืออะไร?",
+                        "label": "อ่านเพิ่ม",
+                        "type": "message"
+                      }
+                    ],
+                    "title": "Blockchain คืออะไร?"
+                  }
+                ],
+                "type": "carousel"
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "altText": "Choose Data about ETH Menu",
+              "type": "template",
+              "template": {
+                "columns": [
+                  {
+                    "text": "องค์ประกอบของ Blockchain ประกอบด้วย 4 ส่วน ดังนี้ Block Chain...",
+                    "title": "องค์ประกอบของ Blockchain มีอะไรบ้าง?",
+                    "actions": [
+                      {
+                        "text": "องค์ประกอบของ Blockchain มีอะไรบ้าง",
+                        "label": "อ่านเพิ่ม",
+                        "type": "message"
+                      }
+                    ]
+                  },
+                  {
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "type": "message",
+                        "text": "หลักการทำงานของ Blockchain มีลักษณะอย่างไร?"
+                      }
+                    ],
+                    "title": "หลักการทำงานของ Blockchain มีลักษณะอย่างไร?",
+                    "text": "หลักการทำงานของ Blockchain มีลักษณะดังภาพนี้"
+                  },
+                  {
+                    "title": "Consensus Algorithms คืออะไร?",
+                    "text": "Consensus Algorithms  เป็นอัลกอรึทึมที่บล็อกเชนใช้แก้ข้อขัดแย้ง โดย...",
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "text": "Consensus Algorithms คืออะไร?",
+                        "type": "message"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "หลักการทำงานของอีเธอเรียม?",
+                    "text": "การทำงานของอีเธอเรียมโดยทั่วไป โดยที่จะมี Web3 provider เปรียบเสมื...",
+                    "actions": [
+                      {
+                        "text": "หลักการทำงานของอีเธอเรียม?",
+                        "type": "message",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "ทำธุรกรรมได้ง่ายและรวดเร็วเนื่องจากธุรกรรมที่เกี่ยวข้องกับคริปโต...",
+                    "title": "ประโยชน์ของ Cryptocurrency?",
+                    "actions": [
+                      {
+                        "text": "ประโยชน์ของ Cryptocurrency?",
+                        "label": "อ่านเพิ่ม",
+                        "type": "message"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Ethereum น่าสนใจอย่างไร?",
+                    "text": "ความสามารถของ Ethereum เป็นสิ่งที่หลายคนให้ความสนใจ สิ่งที่ทำใ...",
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "type": "message",
+                        "text": "Ethereum น่าสนใจอย่างไร?"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "ความโดดเด่นของ ETH",
+                    "text": "เป็น Open Source เปิดให้บุคคลอื่นร่วมพัฒนาระบบจึงทำงานได้หลากหลา...",
+                    "actions": [
+                      {
+                        "type": "message",
+                        "text": "ความโดดเด่นของ ETH เมื่อเทียบกับเหรียญอื่นๆ",
+                        "label": "อ่านเพิ่ม"
+                      }
+                    ]
+                  },
+                  {
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "type": "message",
+                        "text": "กฎหมายของตลาดคริปโตในประเทศไทย"
+                      }
+                    ],
+                    "text": "ก.ล.ต.ออกเกณฑ์คุมสินทรัพย์ดิจิทัล  ห้ามใช้ชำระสินค้าและบริการ เริ่ม 1 เ...",
+                    "title": "กฎหมายของตลาดคริปโตในประเทศไทย"
+                  },
+                  {
+                    "actions": [
+                      {
+                        "label": "อ่านเพิ่ม",
+                        "text": "ประเภทของสินทรัพย์มีอะไรบ้าง?",
+                        "type": "message"
+                      }
+                    ],
+                    "title": "ประเภทของสินทรัพย์มีอะไรบ้าง?",
+                    "text": "ประเภทของสินทรัพย์ มี 3 ประเภท 1. สินทรัพย์หมุนเวียน (Current Ass ..."
+                  },
+                  {
+                    "title": "ความเสี่ยงที่อาจจะเกิดขึ้นจากการลงทุน?",
+                    "text": "ความเสี่ยงที่กว้างที่สุดที่เราหลีกหนีไม่ได้ คือความเสี่ยงจากตลาด (Ma...",
+                    "actions": [
+                      {
+                        "type": "message",
+                        "label": "อ่านเพิ่ม",
+                        "text": "ความเสี่ยงที่อาจจะเกิดขึ้นจากการลงทุน?"
+                      }
+                    ]
+                  }
+                ],
+                "type": "carousel"
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

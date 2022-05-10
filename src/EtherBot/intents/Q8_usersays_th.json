@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2a65c0ab-08ea-4550-9d3f-bd3567ebca82",
+    "data": [
+      {
+        "text": "q8",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "5ebb91e2-4f18-4355-9d32-3b5f513a6b4d",
+    "data": [
+      {
+        "text": "8",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "0613e465-587f-48d5-9889-92a207e55aef",
+    "data": [
+      {
+        "text": "การลงทุนระยะยาว",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "cf6427fd-632f-46ad-9f47-208ca72c9ed5",
+    "data": [
+      {
+        "text": "การลงทุนใน cryptocurrencies เหมาะสำหรับการลงทุนระยะยาวหรือไม่?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

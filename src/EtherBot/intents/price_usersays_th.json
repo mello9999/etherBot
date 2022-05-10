@@ -1,0 +1,66 @@
+[
+  {
+    "id": "27329e86-3386-42b9-a081-b62b2683594f",
+    "data": [
+      {
+        "text": "price",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "11532cc7-29c6-49ad-9a97-e4009524b27e",
+    "data": [
+      {
+        "text": "ราคา",
+        "userDefined": false
+      },
+      {
+        "text": "เหรียญ",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ETH",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "6607bc06-c76b-4d87-a155-48ba33dcb732",
+    "data": [
+      {
+        "text": "เหรียญ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "b9a6d1ce-46de-4e5a-9912-3583deccc2e5",
+    "data": [
+      {
+        "text": "ราคา",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

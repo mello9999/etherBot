@@ -1,0 +1,89 @@
+{
+  "id": "931f2d4e-0d03-4d8b-a34a-da0de0cb06a8",
+  "name": "14.หลักการทำงานของอีเธอเรียม?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "line",
+          "imageUrl": "https://drive.google.com/uc?export\u003ddownload\u0026id\u003d1sAc8BhunKEzJ9MCaGEY-Ff2ktzuOWmMm",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "line",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "การทำงานของอีเธอเรียมโดยทั่วไป โดยที่จะมี Web3 provider เปรียบเสมือนโหนดตัวกลางที่ไว้เรียกใช้งานข้อมูลบล็อกเชนจากแหล่งข้อมูล ซึ่งตัวอย่างของ Web3 provider ได้แก่ Metamask หรือ Infula เป็นต้น แล้วต่อมาจะใช้โหนดตัวกลางนี้ในการเรียกใช้งานจากเครื่องคอมพิวเตอร์เสมือนจริงของอีเธอเรียม แล้วทำการแสดงผลไปที่หน้าเว็บบราวเซอร์ของผู้ใช้งาน อาธิ google chrome เป็นต้น"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "สอบถาม",
+                      "type": "message",
+                      "label": "สอบถาม"
+                    }
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "bd05bd45-2910-4f64-a905-e1f795e6bcaf",
+  "name": "Q7",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "คำถามที่พบบ่อย",
+                      "text": "faq",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "สอบถาม",
+                      "type": "message",
+                      "label": "สอบถาม"
+                    }
+                  }
+                ]
+              },
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A7 : Ethereum หรือ Ether มีมูลค่าเพิ่มขึ้นมา 365% แล้วในปีนี้จนถึง ณ วันที่ 4 พฤษภาคม ผู้ค้าระบุว่าความแรงของมันมาจากการเกาะติดการก้าวกระโดดในช่วงปลายปี 2020 ของ Bitcoin และการอัปเกรดเป็น ethereum blockchain ทำให้มันมีประโยชน์ใช้สอยมากขึ้น"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

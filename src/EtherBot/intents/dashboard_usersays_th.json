@@ -1,0 +1,132 @@
+[
+  {
+    "id": "00051e04-ec3d-4aaa-a993-993c4a3b8495",
+    "data": [
+      {
+        "text": "analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "e0ca118f-bd6a-4c6e-8a4e-376535271a3c",
+    "data": [
+      {
+        "text": "วิเคราะห์ข้อมูล",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "64644551-fa2f-4e56-ba9f-0d037f74ca80",
+    "data": [
+      {
+        "text": "กระดานแสดงผล",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "c5300e38-d62a-4320-aa86-59e6262feb42",
+    "data": [
+      {
+        "text": "board",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "3c3c4940-e6d3-481f-b604-f599557d126b",
+    "data": [
+      {
+        "text": "บอร์ด",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "10f868e0-fb4b-4b00-a401-16dac51b1fa1",
+    "data": [
+      {
+        "text": "dashboard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "773e0863-42dc-4f90-ae47-4db31b983690",
+    "data": [
+      {
+        "text": "แดชบอร์ด",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "c8b1b182-4ffd-40c6-9eff-e63723ae88fd",
+    "data": [
+      {
+        "text": "กระดาน",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "9403d60d-96c1-4f81-ad2e-74ae37d4c42b",
+    "data": [
+      {
+        "text": "แสดงผล",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "b0dc6aaa-f8f5-4b32-8366-0e2161ec2dc6",
+    "data": [
+      {
+        "text": "ผล",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

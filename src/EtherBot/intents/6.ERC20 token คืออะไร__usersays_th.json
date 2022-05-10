@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c34d6f72-6c8d-4b29-a5d9-2cc5f1ae87c1",
+    "data": [
+      {
+        "text": "Ethereum Request for Comment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "6ede85b4-2020-4552-bd9f-9f5b8b3a2215",
+    "data": [
+      {
+        "text": "ERC20 token",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "faab7e07-0f9c-463f-9a67-5ba384cb6073",
+    "data": [
+      {
+        "text": "ERC20 token คืออะไร?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

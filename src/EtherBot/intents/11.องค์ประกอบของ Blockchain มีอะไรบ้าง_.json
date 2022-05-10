@@ -1,0 +1,90 @@
+{
+  "id": "8f6327dc-af7f-4b49-a0e8-f33eb41b4a0f",
+  "name": "11.องค์ประกอบของ Blockchain มีอะไรบ้าง?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "line",
+          "imageUrl": "https://drive.google.com/uc?export\u003ddownload\u0026id\u003d1yEhIUQ-jIEOoMUsEwjh4xn9bCEddAe6w",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "line",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "องค์ประกอบของ Blockchain ประกอบด้วย 4 ส่วน ดังนี้  \n\n1. Block จะทำหน้าที่กระจายไปให้ทุกคนที่เกี่ยวข้องเก็บเอาไว้ โดยข้อมูลเหล่านั้นไม่สามารถแก้ไขหรือเปลี่ยนแปลงได้  \n\n2. Chain ผูกด้วยวิธี Hash Function ซึ่งเปรียบเสมือนลายนิ้วมือของไฟล์ที่ใช้ในการยืนยันความถูกต้องจากข้อมูลที่แต่ละคนถือเอาไว้ ซึ่งถือเป็นตัวแทนของข้อมูลต้นฉบับ ซึ่งค่าที่ได้จากการ Hash นี้มีโอกาสที่ซ้ำกันยากมาก จึงเป็นคุณสมบัติที่เชื่อมั่นได้ในการนำมาใช้ยืนยันข้อมูลที่แต่ละบุคคลถือไว้ \n\n3. Consensus เพื่อกำหนดข้อตกลงที่ต้องเห็นพ้องร่วมกันด้วยอัลกอริทึมต่าง ๆ แล้วแต่การตกลง ทั้งนี้เพื่อให้เกิดความเข้าใจที่ตรงกันในเรื่องกฎและเครื่องมือที่ใช้ในเครือข่ายของผู้ใช้ \n\n4. Validation เพื่อให้เกิดความเชื่อมั่นร่วมกัน ซึ่งกระบวนการตรวจสอบต้องเกิดขึ้นได้อย่างรวดเร็ว"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "label": "ข้อมูลเกี่ยวกับ ETH"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "สอบถาม",
+                      "type": "message",
+                      "label": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

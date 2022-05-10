@@ -1,0 +1,72 @@
+{
+  "id": "e9aa4068-78c2-4738-b66b-f6a4c6195a84",
+  "name": "6.ERC20 token คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้ข้อมูลอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message",
+                      "text": "ข้อมูลเกี่ยวกับ ETH"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "สอบถาม",
+                      "type": "message",
+                      "text": "สอบถาม"
+                    }
+                  }
+                ]
+              },
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ERC20 token หรือ Ethereum Request for Comment เป็นทรัพย์สินที่ใช้บล็อกเชนมีฟังก์ชั่นการทำงานคล้าย bitcoin, ether และ bitcoin cash สามารถเก็บมูลค่าและรับส่งได้ โดยมันถูกสร้างขึ้นบน Ethereum blockchain ถูกจัดเก็บและส่ง โดยใช้แอดเดรสการทำธุรกรรมและค่าแก๊ส เพื่ออำนวยความสะดวกในการแลกเปลี่ยนระหว่าง ERC20 token และสกุลเงินดิจิตอลอื่น ๆ"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

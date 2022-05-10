@@ -1,0 +1,73 @@
+{
+  "id": "25c7a6fd-64e2-468a-a412-833a67698ffa",
+  "name": "13.Consensus Algorithms คืออะไร?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "label": "ข้อมูลเกี่ยวกับ ETH",
+                      "text": "ข้อมูลเกี่ยวกับ ETH",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "สอบถาม",
+                      "text": "สอบถาม",
+                      "type": "message"
+                    }
+                  }
+                ]
+              },
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "Consensus Algorithms  เป็นอัลกอรึทึมที่บล็อกเชนใช้แก้ข้อขัดแย้ง โดยมีหลักการง่าย ๆ ว่า ข้อมูลที่อัพเดทจากฝั่งไหนยาวที่สุดให้ใช้ตัวนั้น แต่หากมีจำนวนบล็อกที่เท่ากันก็จะเลือกใช้ตัวใดตัวหนึ่งไปก่อน สุดท้ายกลุ่มที่มีบล็อกสั้น ๆ ก็จะถูกลืมไปในที่สุด เหมือนว่าไม่เคยมีมาก่อนในระบบ"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

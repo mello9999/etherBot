@@ -1,0 +1,14 @@
+{
+  "id": "90bceac5-4528-4ea8-935a-38a773f42bc8",
+  "name": "price",
+  "auto": true,
+  "contexts": [],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

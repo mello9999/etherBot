@@ -1,0 +1,72 @@
+{
+  "id": "8b6eb7df-ef7d-4be1-a3b8-42ba1701f1c9",
+  "name": "Q4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "คุณต้องการอยากรู้คำถามอื่นอีกไหม?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "คำถามที่พบบ่อย",
+                      "text": "faq"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "text": "สอบถาม",
+                      "type": "message",
+                      "label": "สอบถาม"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "A4 : อีเธอเรียมถูกกำหนดให้มีกาพัฒนาขึ้นในเดือนธันวาคม ปี 2020 และคาดว่าจะพัฒนาเสร็จสิ้นภายในไตรมาสที่ 1 ของปี 2022"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
