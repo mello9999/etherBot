@@ -1,6 +1,6 @@
 # Cryptocurrency analysis for  transactions of Ethereum coins on chatbot
 #### So, Your Product is name EtherBot 
-<img align="right" height="220" width="360" alt="topic" src="pics/description_project/1.png" />
+<img align="right" height="280" width="280" alt="topic" src="pics/description_project/EtherBot.png" />
 โปรเจ็คนี้เป็นส่วนหนึ่งของรายวิชา CPE401 COMPUTER ENGINEERING PROJECT I จัดทำโดย นักศึกษาวิศวกรรมคอมพิวเตอร์ ชั้นปี 4 มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 
 ### :woman: Developer Team :woman:
