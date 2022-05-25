@@ -18,7 +18,7 @@ Member in team :
 # :globe_with_meridians:Link to Products :white_heart:
 - :desktop_computer: Chatbot link : [EtherBot!](https://liff.line.me/1645278921-kWRPP32q/?accountId=949lzjrt) :white_heart:
 - :globe_with_meridians::desktop_computer: API link : [EtherBot.Dataservice API!](https://etherbot2022.herokuapp.com/docs) :white_heart::black_heart:
-- :desktop_computer: Dashboard link : [Analysis dashboard!](https://shorturl.asia/jNKRa) :black_heart:
+- :desktop_computer: Dashboard link : [Analysis dashboard!](https://shorturl.asia/V3WvA) :black_heart:
 
 # :gear: Tools in Project
 - [X] Visual Studio Code (VS code) > implement data process
