@@ -16,20 +16,20 @@
           "title": "",
           "payload": {
             "line": {
-              "type": "text",
-              "text": "คุณต้องการอยากรู้อย่างอื่นอีกไหม?",
               "quickReply": {
                 "items": [
                   {
                     "type": "action",
                     "action": {
-                      "text": "สอบถาม",
                       "type": "message",
+                      "text": "สอบถาม",
                       "label": "สอบถาม"
                     }
                   }
                 ]
-              }
+              },
+              "type": "text",
+              "text": "คุณต้องการอยากรู้อย่างอื่นอีกไหม?"
             }
           },
           "textToSpeech": "",
@@ -42,7 +42,7 @@
           "textToSpeech": "",
           "lang": "th",
           "speech": [
-            "ติดตามสำหรับ dashboard ที่นี่ https://shorturl.asia/jNKRa"
+            "ติดตามสำหรับ dashboard ที่นี่ https://shorturl.asia/V3WvA"
           ],
           "condition": ""
         }
